@@ -166,6 +166,15 @@
   details[open] summary::after{transform:rotate(45deg)}
   details p{padding:0 2px 22px;color:var(--muted);font-size:15.5px;max-width:640px}
 
+  /* Komunitas WhatsApp */
+  .community{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:850px}
+  .community-card{padding:26px 24px;border:1px solid var(--line);border-radius:14px;background:rgba(20,16,13,.48)}
+  .community-card .community-icon{font-size:27px;margin-bottom:14px;color:var(--accent)}
+  .community-card h3{font-size:19px;color:var(--paper);margin-bottom:7px}
+  .community-card p{font-size:14.5px;color:var(--muted);margin-bottom:20px}
+  .community-card .btn{width:100%}
+  @media(max-width:640px){.community{grid-template-columns:1fr}.community-card{padding:22px 19px}}
+
   /* Penutup */
   .final{padding:96px 0 40px;max-width:720px}
   .final h2{font-family:Fraunces,Georgia,serif;font-size:clamp(30px,5.6vw,50px);font-weight:800;line-height:1.1;margin-bottom:14px;color:var(--paper)}
@@ -221,6 +230,7 @@
         <a href="#kenapa">Kenapa KomiNovel</a>
         <a href="#kreator">Jadi Kreator</a>
         <a href="#faq">Tanya Jawab</a>
+        <a href="#komunitas">Komunitas</a>
       </nav>
       <a class="btn btn-primary btn-sm" href="https://kominovel.pages.dev/">Mulai Baca</a>
     </div>
@@ -358,6 +368,30 @@
             <summary>Bagaimana cara mulai?</summary>
             <p>Tekan tombol "Mulai Baca" untuk langsung membaca, atau daftar akun jika ingin mulai menerbitkan karya sendiri.</p>
           </details>
+        </div>
+      </section>
+    </div></div>
+
+    <div class="zone z-faq"><div class="wrap">
+      <section id="komunitas">
+        <div class="head rv">
+          <span class="eyebrow">Terhubung Bersama</span>
+          <h2>Jadi bagian dari komunitas KomiNovel</h2>
+          <p>Ikuti informasi terbaru dan ngobrol bersama pembaca serta kreator KomiNovel melalui WhatsApp.</p>
+        </div>
+        <div class="community">
+          <article class="community-card rv">
+            <div class="community-icon">◉</div>
+            <h3>Saluran WhatsApp</h3>
+            <p>Dapatkan kabar, informasi, dan pembaruan terbaru seputar KomiNovel langsung melalui saluran WhatsApp.</p>
+            <a class="btn btn-primary" href="https://whatsapp.com/channel/0029Vb95Rol8vd1TjvMvYT2p" target="_blank" rel="noopener noreferrer">Ikuti Saluran</a>
+          </article>
+          <article class="community-card rv">
+            <div class="community-icon">✳</div>
+            <h3>Grup WhatsApp</h3>
+            <p>Bergabung dengan komunitas untuk berkenalan, berdiskusi, dan berbagi cerita bersama anggota KomiNovel.</p>
+            <a class="btn btn-ghost" href="https://chat.whatsapp.com/HskcrYy3nrR7dG3qkI0T0k" target="_blank" rel="noopener noreferrer">Gabung Grup</a>
+          </article>
         </div>
       </section>
     </div></div>
